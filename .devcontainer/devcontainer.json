@@ -1,0 +1,17 @@
+{
+  "name": "FastAPI Docker Dev",
+
+  "dockerComposeFile": "../docker-compose.yml",
+
+  "service": "api",
+
+  "workspaceFolder": "/app",
+
+  "shutdownAction": "stopCompose",
+
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-azuretools.vscode-docker"
+  ]
+}
