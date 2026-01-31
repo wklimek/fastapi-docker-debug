@@ -17,3 +17,8 @@ def read_item(item_id: int):
         "price": item_id * 20
     }
     return result
+
+@app.get("/name")
+def get_name():
+    name: str = "Wald"
+    return name
